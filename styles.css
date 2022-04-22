@@ -1,15 +1,18 @@
 * {
     border: 1px solid red;
 }
+/* remove the border when finished */
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
+    padding: 48 72;
 }
 
 .left,
@@ -18,11 +21,36 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header,
+.row-one,
+.footer{
     background-color: #1f2937;
     color: white;
+}
+.header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 72px 0;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a,
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
