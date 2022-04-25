@@ -6,6 +6,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 
 }
 
@@ -15,9 +16,12 @@ body {
     padding: 48 72;
 }
 
+
+
 .left,
 .right,
-.box{
+.box,
+.row-two {
     flex-direction: column;
 }
 
@@ -26,6 +30,13 @@ body {
 .footer{
     background-color: #1f2937;
     color: white;
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+    padding: 36px 72px;
 }
 .header {
     align-items: center;
@@ -53,4 +64,15 @@ a,
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.bold-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+button,
+.banner {
+    background-color: #3882f6;
+    color: white;
 }
